@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 # ==========================================
 # CONFIGURAÇÕES
 # ==========================================
-IDS_USUARIOS_PERMITIDOS = [1445574384256417963, 666319038112202763, 1426235349457174643, 997243372207091762]
+IDS_USUARIOS_PERMITIDOS = [1445574384256417963, 666319038112202763, 1426235349457174643, 997243372207091762, 723504307290505268]
 ID_CANAL_ESPECIFICO = 1480575575889412298
 
 ID_CARGO_ALUNO_RUBIA = 1480577534709076119
@@ -141,3 +141,4 @@ if __name__ == "__main__":
         print("❌ ERRO FATAL: O Token do bot não foi encontrado nas Variáveis de Ambiente!")
     else:
         bot.run(TOKEN_DO_BOT)
+
